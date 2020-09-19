@@ -1,22 +1,16 @@
 # Name of the project
-PROJECT_NAME = DisplayOP
+PROJECT_NAME = myfile
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = main.c\
-src/myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
+src/myfile.c\
 
 # All test source files
 TEST_SRC = src/myfile.c\
-src/day.c\
-src/days,dates,months.c\
-src/Reminder&notes.c\
-test/test/test_myfile.c\
-test/test_day.c\
-test/test_days,dates,months.c\
-test/test_Reminder&notes.c\
+test/test_myfile.c
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
