@@ -6,11 +6,35 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/myfn.c\
+src/myile.c\
 
 # All test source files
-TEST_SRC = src/myfn.c\
-test/test_myfn.c
+TEST_SRC = src/myfile.c\
+test/test_myfile.c
+
+SRC = days,dates,months.c\
+src/days,dates,months.c\
+
+TEST_SRC=days,dates,months.c\
+src/days,dates,months.c\
+
+SRC = day.c\
+src/days.c\
+
+TEST_SRC=days.c\
+src/days.c\
+
+SRC = Reminder&notes.c\
+src/Reminder&notes.c\
+
+TEST_SRC= Reminder&notes.c\
+src/ Reminder&notes.c\
+
+
+
+
+
+
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
