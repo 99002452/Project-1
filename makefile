@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = main.c\myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
-src/main.c\myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
+src/myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
 
 # All test source files
 TEST_SRC = src/myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
-test/test_myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
+test/test_myfile.c\test_day.c\test_days,dates,months.c\test_Reminder&notes.c\
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
