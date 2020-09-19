@@ -1,17 +1,16 @@
 # Name of the project
-PROJECT_NAME = C project
+PROJECT_NAME = DisplayOP
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = main.c\
-src/myfile.h\
+src/myfn.c\
 
 # All test source files
-TEST_SRC = src/myfile.h\
-test/test_myfile.h\
-
+TEST_SRC = src/myfn.c\
+test/test_myfn.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
