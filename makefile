@@ -5,35 +5,12 @@ PROJECT_NAME = DisplayOP
 BUILD = build
 
 # All source code files
-SRC = main.c\
-src/myile.c\
+SRC = main.c\myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
+src/main.c\myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
 
 # All test source files
-TEST_SRC = src/myfile.c\
-test/test_myfile.c
-
-SRC = days,dates,months.c\
-src/days,dates,months.c\
-
-TEST_SRC=days,dates,months.c\
-src/days,dates,months.c\
-
-SRC = day.c\
-src/days.c\
-
-TEST_SRC=days.c\
-src/days.c\
-
-SRC = Reminder&notes.c\
-src/Reminder&notes.c\
-
-TEST_SRC= Reminder&notes.c\
-src/ Reminder&notes.c\
-
-
-
-
-
+TEST_SRC = src/myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
+test/test_myfile.c\day.c\days,dates,months.c\Reminder&notes.c\
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
