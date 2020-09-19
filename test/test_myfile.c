@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <myfn.h>
+#include <myfile.h>
 #define PROJECT_NAME    "DisplayOP"
 
 /* Prototypes for all the test functions */
@@ -20,7 +20,7 @@ int main() {
   
   /* Add your test functions in this format for testing*/
 
-  CU_add_test(suite, "printop",test_printop);
+  CU_get_day(dd,mm,yyyy);
 	
 
 
@@ -39,7 +39,7 @@ int main() {
 
 /* Write all the test functions */ 
 
-void test_printop(void)
+void numberofdays(void)
 {
 	CU_ASSERT(1 == printop(1));
 }
