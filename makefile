@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = DisplayOP
+PROJECT_NAME = Calendar & Reminder
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = main.c\
-src/myfn.c\
+src/myfile.c\
 
 # All test source files
-TEST_SRC = src/myfn.c\
-test/test_myfn.c
+TEST_SRC = src/myfile.c\
+test/test_myfile.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
